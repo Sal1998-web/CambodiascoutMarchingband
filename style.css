@@ -1,0 +1,211 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kantumruy pro', 'Montserrat' , sans-serif;
+   
+}
+body{
+    max-width: 800px;
+    max-height: 1000PX;
+    height: 100vh;
+    background: #fff6f6;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient  (380deg, hsla(270, 91%, 83%, 1) 0%, rgb(120, 10, 184) 100%);
+    position: relative;
+    
+}
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #7b2cbf;
+}
+.txt{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    padding: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    border-radius: 0px;
+}
+.txt:hover{
+    text-decoration: none;
+    font-size: 33px;
+    color:  seagreen  ;
+    padding: 20px;
+    font-weight: 500;
+   
+}
+.page {
+    height: 100vh;
+    padding: 80px 10px 10px ;
+    align-content: center;
+    position: relative;
+    display: flex;
+    
+    
+}
+.container {
+    margin: 20px;
+    padding: 20px 10px 50px;
+    width: 90%;
+    background:linear-gradient(180deg, hsla(276, 91%, 79%, 1) 25%, hsla(254, 74%, 65%, 1) 100%);
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.10);
+    position: relative;
+   
+}
+i{
+    padding: 0 2px;
+    align-items: center;
+}
+.container .title {
+    font-size: 28px;
+    color: #7b2cbf;
+}
+.container .titlel {
+    font-size: 20px;
+    color:  #7b2cbf;
+}
+
+
+.container .price {
+    color:rgb(26, 137, 201);
+    font-weight: 700;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.container span {
+    font-size: 1.2rem;
+}
+
+.container .description {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 20px 0 20px;
+}
+
+.container .offer {
+    display: block;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.container .desdescription{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+.subscribe-button {
+    display: inline-block;
+    padding: 15px 0;
+    background-color: #7b2cbf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.subscribe-buttont {
+    display: inline-block;
+    padding: 15px 0;
+    background-color:  seagreen    ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.subscribe-buttont:hover {
+    background: #ff4d4d;
+}
+.subscribe-button:hover {
+    background: #ff4d4d;
+}
+
+
+@media only screen and (max-width: 600px) {
+body{
+    
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+}
+    }
+
+.footter {
+    margin: 20px;
+    padding: 20px 10px 50px;
+    width: 90%;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.footter .subscribe-buttontt{
+    display: inline-block;
+    padding: 15px 0;
+    background-color:  rgb(248, 34, 206)    ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.2s ease;
+    
+}
+.subscribe-buttontt:hover {
+    background: #ff4d4d;
+}
+.fa-solid  {
+    color: #fff;
+    
+   
+}
+/*
+.ribbon-wrap {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+
+.ribbon {
+    width: 230px;
+    font-size: 0.918rem;
+ \\   text-align: center;
+    padding: 8px 0;
+    background: #FF6B6B;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+} */
